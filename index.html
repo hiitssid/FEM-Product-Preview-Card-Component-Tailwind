@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  
+    <!--when used "sm:" in class; styles are implemented to screen-size above 640px-->
+    <body class="h-screen w-screen flex flex-col justify-center items-center bg-cream">
+      <div class="bg-white max-w-[342px] rounded-lg sm:max-w-[600px] sm:flex">
+            <div class="w-auto h-[240px] rounded-t-lg overflow-hidden pb-5 sm:w-[300px] sm:h-[450px] bg-mobilebg sm:bg-desktopbg bg-no-repeat bg-cover sm:rounded-l-lg sm:rounded-tr-none sm:overflow-hidden">
+            <!--Product Image-->
+     <!--------------------------------------------------------------------------------------------------------------------->       
+              <!-- <img src="../images/image-product-mobile.jpg" alt="" srcset=""> -->
+            </div>
+            <!--/Product Image-->
+            <div>
+              <div class="mt-[25px] sm:mt-[32px] px-[23px] sm:px-[31px] sm:w-[300px] pb-[25px] sm:pb-0 ">
+                <p class="font-montserrat uppercase text-xs tracking-[0.42em]">
+                  Perfume
+                </p>
+                <h1 class="mt-[10px] sm:mt-[19px] leading-[2.1rem] sm:leading-[2rem] font-fraunces text-[32px] font-bold ">
+                  Gabrielle Essence Eau De Parfum
+                </h1>
+                <p class="mt-[17px] sm:mt-[26px] font-montserrat text-sm leading-[1.4rem]">
+                  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                  Perfumer-Creator for the House of CHANEL.
+                </p>
+                  <div class="mt-[17px] sm:mt-[23px] flex items-center">
+                    <p class="text-darkcyan font-fraunces text-[32px] font-black">$149.99</p>
+                    <p class="ml-[1.2rem] line-through font-montserrat text-sm">$169.99</p>
+                  </div>
+                  <div class="mt-[10px] sm:mt-[19px] py-3 bg-darkcyan active:bg-vdarkcyan hover:cursor-pointer text-white text-center rounded-lg flex items-center justify-center space-x-2">
+                    <img src="src/images/icon-cart.svg" alt="">
+                    <a href=""> Adto Cart</a>
+                  
+                  </div>
+              </div>
+          </div>
+      </div>
+   
+  </body>
+</html>
